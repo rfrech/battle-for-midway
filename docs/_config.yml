@@ -13,3 +13,4 @@ description: "A World War II game of search and destroy set in the most pivotal 
 author:
   name: "Roderick Frechette"
   
+theme: jekyll-theme-slate
