@@ -1,0 +1,14 @@
+remote_theme: ddc-java/ddc-day
+repository_links:
+  enabled: false
+page_navigator:
+  enabled: false
+titles_from_headings:
+  enabled: false
+
+# Modify the contents below for the specific project.
+
+title: "Battle for Midway"
+description: "A World War II game of search and destroy set in the most pivotal battle for control of the Pacific."
+author:
+  name: "Roderick Frechette"
