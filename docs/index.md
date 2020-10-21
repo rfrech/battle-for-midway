@@ -34,10 +34,11 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
 * Using the Create a Notification function Android notification services will notify android users that their "Squadrons are ready" as a call to action
 [Android](https://developer.android.com/training/notify-user/build-notification#java)
 
-* Sharing options with other apps such as social media
-	* Ability to share on
-	[Facebook](https://developers.facebook.com/products/sharing-facebook)
-	* App notifications 
+* You will be able to Share the app with your friends on social media
+	* Ability to share on Facebook!
+	[Overview](https://developers.facebook.com/docs/sharing/overview)
+	[Documentation](https://developers.facebook.com/products/sharing-facebook)
+	* App notifications and alerts
 	[Facebook](https://developers.facebook.com/docs/games/)
 
 			Application will be usable in offline mode!
