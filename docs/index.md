@@ -55,7 +55,7 @@ The application I am proposing will be a turn-based strategy game. The action wi
 
 ## Wireframe
 
-[![Midway](img/proposalPng.png)](pdf)
+[![Midway](img/proposalPng.png)](pdf/proposalPng.pdf)
 
 ## ERD
 
