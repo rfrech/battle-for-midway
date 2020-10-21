@@ -22,7 +22,7 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
 
 * People who enjoy playing strategy games.
 
-	> As a person who grew up playing board and computer based games I want to be able to experience turn-based strategy games in new scenarios that enable me to envoke the same nostalgia I used to have growing up playing these games.
+	> As a person who grew up playing board and computer based games I want to be able to experience turn-based strategy games in new scenarios that enable me to invoke the same nostalgia I used to have growing up playing these games.
 
 * People who are interested in history, particularly military history.
 
@@ -31,12 +31,14 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
     
 ## Cloud and Device Based Services
 
-* Using the Create a Notification function Android notification services will notify android users that their "Squadrons are ready" and the game is ready for play
+* Using the Create a Notification function Android notification services will notify android users that their "Squadrons are ready" as a call to action
 [Android](https://developer.android.com/training/notify-user/build-notification#java)
+
 * Sharing options with other apps such as social media
-	* Ability to share high score on
+	* Ability to share on
 	[Facebook](https://developers.facebook.com/products/sharing-facebook)
-		[Facebook](https://developers.facebook.com/docs/games/)
+	* App notifications 
+	[Facebook](https://developers.facebook.com/docs/games/)
 
 			Application will be usable in offline mode!
 
