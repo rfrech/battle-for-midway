@@ -41,10 +41,8 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
 			Application will be usable in offline mode!
 
 
-## Wireframe
+## [Wireframe](wireframe.md)
 
-[![Midway](img/proposalPng.png)](pdf/proposalPng.pdf)
 
-## ERD
 
-[![ERD](img/erd.png)](pdf/erd.pdf)
+## [ERD](erd.md)
