@@ -4,7 +4,7 @@
 
 ### Summary
 
-   Battle for Midway is a turn-based strategy game. The player, representing the United States will be utilizing a large host of aircraft whose objective is to ascertain the location of the Imperial Japanese Navy, and upon locating, destroy all enemy vessels. Each turn the user will dispatch the aircraft squadrons at their disposal to hunt for ships on the game board. The player has ten turns to complete the total annihilation of the Japanese fleet before they reach the United States base at Midway. If the opponent has not been defeated by turn ten, the Japenese invasion army lands on Midway and the game is lost.
+Battle for Midway is a turn-based strategy game. The player, representing the United States will be utilizing a large host of aircraft whose objective is to ascertain the location of the Imperial Japanese Navy, and upon locating, destroy all enemy vessels. Each turn the user will dispatch the aircraft squadrons at their disposal to hunt for ships on the game board. The player has ten turns to complete the total annihilation of the Japanese fleet before they reach the United States base at Midway. If the opponent has not been defeated by turn ten, the Japenese invasion army lands on Midway and the game is lost.
 
 
 ### Functionality
