@@ -28,18 +28,13 @@
 
 	> As someone whose favorite subject is history, I have been reading historical based content for most of my adult life. I want to be able to experience what I read about from my android device so I may immerse myself in these historical situations.
 
-## Persistent data
-
-* Custom settings and options
-* Game highscore list
-* Recording which units were a players most valuable assets
     
 ## Cloud and Device Based Services
 
-* Android notification services to notify android users that their "Squadrons are ready" 
+* Using the Create a Notification function Android notification services will notify android users that their "Squadrons are ready" and the game is ready for play
 [Android](https://developer.android.com/training/notify-user/build-notification#java)
 * Sharing options with other apps such as social media
-	* Ability to share high score on Facebook
+	* Ability to share high score on
 	[Facebook](https://developers.facebook.com/products/sharing-facebook)
 		[Facebook](https://developers.facebook.com/docs/games/)
 
