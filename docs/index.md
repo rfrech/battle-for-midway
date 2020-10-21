@@ -1,6 +1,6 @@
 # Battle for Midway
 
-# Project Description
+## Project Description
 
 ### Summary
 
