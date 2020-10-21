@@ -4,14 +4,14 @@
 
 # Summary
 
-The application I am proposing will be a turn-based strategy game. The action will take place on a gameboard divided into squares. The player, representing the United States will be utilizing a large host of aircraft whose objective is to ascertain the location of the Imperial Japanese Navy, and upon locating, destroy all enemy vessels. The player has ten turns to complete the total annihilation of the Japanese fleet before they reach the United States base at Midway. If the opponent has not been defeated by turn ten, the Japenese invasion army lands on Midway and the game is lost.
+Battle for Midway is a turn-based strategy game. The player, representing the United States will be utilizing a large host of aircraft whose objective is to ascertain the location of the Imperial Japanese Navy, and upon locating, destroy all enemy vessels. Each turn the user will dispatch the aircraft squadrons at their disposal to hunt for ships on the game board. The player has ten turns to complete the total annihilation of the Japanese fleet before they reach the United States base at Midway. If the opponent has not been defeated by turn ten, the Japenese invasion army lands on Midway and the game is lost.
 
 
 # Functionality
 
-* Board will be a grid of squares
+* Board will be setup in a grid format
 * Play as United States air forces in the Battle of Midway
-* Fight against the might of the Japenese navy and attempt to destroy 10 of their largest ships
+* Fight against the might of the Japanese navy and attempt to destroy 10 of their largest ships
 * Disperse your squadrons of aircraft to explore the board and locate the position of enemies
 * Allied fighters will be assigned to squares of the grid to reveal enemies, and commit to fight the enemies when revealed
 * Commit your fighters, from your pool of squadrons, to annihilate their opponents within 10 turns before they land their invasion force on Midway
