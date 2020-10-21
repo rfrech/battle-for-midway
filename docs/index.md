@@ -34,7 +34,7 @@
 * Game highscore list
 * Recording which units were a players most valuable assets
     
-## Device/external services
+## Cloud and Device Based Services
 
 * Android notification services to notify android users that their "Squadrons are ready" 
 [Android](https://developer.android.com/training/notify-user/build-notification#java)
@@ -45,16 +45,6 @@
 
 			Application will be usable in offline mode!
 
-## Stretch goals/possible enhancements 
-
-1. Inclusion of multiple unit class types
-2. Changing size of gameboard grid as time progresses
-3. AI advanced targetting options
-	* The AI ships will have a chance to shoot down allied fighters that have been committed to attacking
-4. Algorithms for advanced battle settings and damage computation
-5. Multiple statistcal enhancements for users aircraft as game progresses
-6. Additional reinforcement options
-7. Map API integration for displaying surface background
 
 ## Wireframe
 
