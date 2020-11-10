@@ -38,7 +38,7 @@ Select ship name to determine unique names. Multiple null not valid. Name column
 
 ## Queries
 
-Select ship class to determine type of ship. Multiple null not valid. class column. order by group type
+Select ship type to determine type of ship. Multiple null not valid. class column. order by group type
 
 ## Queries
 
