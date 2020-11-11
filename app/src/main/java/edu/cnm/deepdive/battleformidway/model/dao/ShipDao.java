@@ -7,6 +7,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
+import edu.cnm.deepdive.battleformidway.model.entity.Game;
 import edu.cnm.deepdive.battleformidway.model.entity.Ship;
 import io.reactivex.Single;
 import java.util.Collection;
@@ -42,19 +43,25 @@ public interface ShipDao {
   @Delete
   Single<Integer> delete(Collection<Ship> ships);
 
-  @Query("SELECT name FROM Ship")
-  LiveData<Ship> select(String name);
+  @Query("SELECT * FROM Ship WHERE ship_id = :shipId")
+  LiveData<Ship> select (long shipId);
 
-  @Query("SELECT type FROM Ship")
-  LiveData<List<Ship>> select(Enum type);
+  @Query("SELECT * FROM Ship ORDER BY strength DESC")
+  LiveData<Ship> selectAll();
 
-  @Query("SELECT strength FROM Ship")
-  LiveData<List<Ship>> select(int strength);
-
-  @Query("SELECT position FROM Ship")
-  LiveData<Ship> selectPosition(int position);
-
-  @Query("SELECT game_id FROM Ship WHERE game_id = :gameId")
-  LiveData<Ship> select(long gameId);
+//  @Query("SELECT name FROM Ship")
+//  LiveData<Ship> select(String name);
+//
+//  @Query("SELECT type FROM Ship")
+//  LiveData<List<Ship>> select(Enum type);
+//
+//  @Query("SELECT strength FROM Ship")
+//  LiveData<List<Ship>> select(int strength);
+//
+//  @Query("SELECT position FROM Ship")
+//  LiveData<Ship> selectPosition(int position);
+//
+//  @Query("SELECT game_id FROM Ship WHERE game_id = :gameId")
+//  LiveData<Ship> select(long gameId);
 
 }

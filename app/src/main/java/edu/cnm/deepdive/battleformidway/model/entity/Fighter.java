@@ -24,7 +24,6 @@ public class Fighter {
   private long fighterId;
 
   @NonNull
-  @ColumnInfo(index = true)
   private String name;
 
   @NonNull
@@ -34,5 +33,37 @@ public class Fighter {
   @ColumnInfo(name = "ship_id")
   private Long shipId;
 
+  public long getFighterId() {
+    return fighterId;
+  }
 
+  public void setFighterId(long fighterId) {
+    this.fighterId = fighterId;
+  }
+
+  @NonNull
+  public String getName() {
+    return name;
+  }
+
+  public void setName(@NonNull String name) {
+    this.name = name;
+  }
+
+  public int getStrength() {
+    return strength;
+  }
+
+  public void setStrength(int strength) {
+    this.strength = strength;
+  }
+
+  @NonNull
+  public Long getShipId() {
+    return shipId;
+  }
+
+  public void setShipId(@NonNull Long shipId) {
+    this.shipId = shipId;
+  }
 }

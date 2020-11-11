@@ -17,7 +17,7 @@ public class Game {
   @PrimaryKey(autoGenerate = true)
   private long gameId;
 
-  @ColumnInfo(name = "turn_number", index = true)
+  @ColumnInfo(name = "turn_number")
   @NonNull
   private int turnNumber;
 

@@ -12,7 +12,8 @@ import androidx.room.TypeConverter;
     indices = {
         @Index(value = {"game_id"}, unique = true),
         @Index(value = {"strength"}, unique = true),
-        @Index(value = {"name"}, unique = true)
+        @Index(value = {"name"}, unique = true),
+        @Index(value = {"type"}, unique = true)
     },
     foreignKeys = {
         @ForeignKey(entity = edu.cnm.deepdive.battleformidway.model.entity.Game.class, parentColumns = {"game_id"}, childColumns = {"game_id"},
@@ -25,20 +26,17 @@ public class Ship {
   @ColumnInfo(name = "ship_id")
   private long shipId;
 
-  @ColumnInfo(index = true)
   private int strength;
 
   private int position;
 
-  @ColumnInfo(name = "game_id", index = true)
+  @ColumnInfo(name = "game_id")
   private long gameId;
 
   @NonNull
-  @ColumnInfo(index = true)
   private Name name;
 
   @NonNull
-  @ColumnInfo(index = true)
   private Type type;
 
   public long getShipId() {
@@ -91,7 +89,7 @@ public class Ship {
     this.type = type;
   }
 
-  private enum Name {
+  public enum Name {
     YAMATO, KIRISHIMA, AKAGI, HIRYU, KAGA, SORYU, MOGAMI, MIKUMA, ZUIHO, HOSHO;
 
     @TypeConverter
@@ -105,7 +103,7 @@ public class Ship {
     }
   };
 
-  private enum Type {
+  public enum Type {
     BATTLESHIP, AIRCRAFT_CARRIER, CRUISER, LIGHT_FLEET_CARRIER;
 
     @TypeConverter
