@@ -36,7 +36,7 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
 [Documentation](https://developer.android.com/training/notify-user/build-notification#java)
 
 * You will be able to Share the app with your friends on social media
-	* Ability to share on Facebook!
+	* Ability to share on your Facebook feed, allowing your friends to see what you are playing
 	[Overview](https://developers.facebook.com/docs/sharing/overview)
 	[Documentation](https://developers.facebook.com/products/sharing-facebook)
 	* Gaming App notifications and alerts
