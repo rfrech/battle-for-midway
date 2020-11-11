@@ -41,7 +41,7 @@
     
     CREATE UNIQUE INDEX IF NOT EXISTS `index_Ship_type` ON `Ship` (`type`);
 
-* [DDL Github](https://github.com/rfrech/battle-for-midway/blob/master/docs/ddl.sql)
+* [DDL Github](https://github.com/rfrech/battle-for-midway/blob/master/docs/sql/ddl.sql)
 
 
 > [Return to previous page](data-model-implementation.md#data-definition-language)
