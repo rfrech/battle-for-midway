@@ -50,3 +50,6 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
 
 
 ## [ERD](erd.md)
+
+
+## [Data Model Implementation](data-model-implementation.md)
