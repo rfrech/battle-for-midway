@@ -19,6 +19,7 @@ public class ShipRepository {
     BattleForMidwayDatabase database = BattleForMidwayDatabase.getInstance();
     shipDao = database.getShipDao();
   }
+
   public Completable save(Ship ship) {
     return (ship.getShipId() == 0)
         ? shipDao.insert(ship)
@@ -27,19 +28,16 @@ public class ShipRepository {
         : shipDao.update(ship)
             .ignoreElement();
   }
+
   public Completable delete(Ship ship) {
     return (ship.getShipId() == 0)
         ? Completable.complete()
         : shipDao.delete(ship)
             .ignoreElement();
   }
+
   public LiveData<Ship> get(long shipId) {
     return shipDao.select(shipId);
   }
-//    public LiveData<List<Ship>> getAll() {
-//      return shipDao.selectAll();
-//    }
-//    public LiveData<Ship> getByOauth(long oauth) {
-//      return shipDao.selectWithOauth(oauth);
-//    }
+
 }
