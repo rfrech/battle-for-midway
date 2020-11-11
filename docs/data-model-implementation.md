@@ -22,4 +22,10 @@
 * [FighterRepository](https://github.com/rfrech/battle-for-midway/blob/master/app/src/main/java/edu/cnm/deepdive/battleformidway/service/FighterRepository.java)
 * [ShipRepository](https://github.com/rfrech/battle-for-midway/blob/master/app/src/main/java/edu/cnm/deepdive/battleformidway/service/ShipRepository.java)
 
+### Data Definition Language
+
+
+* [DDL](ddl.md)
+
+
 > [Return to previous page](index.md#data-model-implementation)
