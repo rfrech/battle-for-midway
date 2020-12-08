@@ -56,7 +56,7 @@ While the application is in a buildable and runnable state, there is still plent
 
 5. Once the IDE has finished building the project, click the green arrow button or click the ‘Run Battle for Midway.app’ button in the Run menu.
 
-## Cloud and Device Based Services
+## [Cloud and Device Based Services](external-service.md)
 
 * Using the Create a Notification function Android notification services will notify android users that their "Squadrons are ready" as a call to action
 [Overview](https://developer.android.com/docs)
@@ -75,8 +75,10 @@ While the application is in a buildable and runnable state, there is still plent
 ## [Wireframe](wireframe.md)
 
 
-
 ## [ERD](erd.md)
 
 
 ## [Data Model Implementation](data-model-implementation.md)
+
+
+## [Copyright and License](license.md)
