@@ -28,7 +28,34 @@ Battle for Midway is a turn-based strategy game. The player, representing the Un
 
 	> As someone whose favorite subject is history, I have been reading historical based content for most of my adult life. I want to be able to experience what I read about from my android device so I may immerse myself in these historical situations.
 
-    
+## Current Application State
+
+While the application is in a buildable and runnable state, there is still plenty of work to be done before there is a playable game. While the layout contains three bottom navigation buttons with their own screens, they do not currently have a role, and the game logic has not been implemented.
+
+### Not Functional
+
+* The game in its current state
+* Buttons without functionality
+* Database returning games
+
+### Stretch Goals
+
+* Populating Screens
+* Implementing Game logic
+* Social Media sharing integration with API
+
+## Build Instructions
+
+1. Go to the [Battle for Midway](https://github.com/rfrech/battle-for-midway) Project Github
+
+2. With SSH selected, click on the green Code button and then click on the clipboard icon to copy the link.
+
+3. Turn on either IntelliJ IDEA or Android Studio and select new project from version control and then paste the copied link into URL field and click Clone.
+
+4. Once the IDE has finished downloading everything, run the project by clicking the green hammer icon or clicking Build Project in the Build Menu.
+
+5. Once the IDE has finished building the project, click the green arrow button or click the ‘Run Battle for Midway.app’ button in the Run menu.
+
 ## Cloud and Device Based Services
 
 * Using the Create a Notification function Android notification services will notify android users that their "Squadrons are ready" as a call to action
